@@ -11,7 +11,7 @@ Directory Structure
 - `etl_code/` contains cleaning and merge jobs for the combined transportation + weather dataset.
 - `profiling_code/` contains record counts, schema checks, and other quick validation scripts.
 - `screenshots/` stores project screenshots for different steps of the pipeline.
- - `screenshots/model+predictions` contains screenshots specifically for the interactive map vizualization of the model. 
+  - `screenshots/model+predictions` contains screenshots specifically for the interactive map vizualization of the model. 
 
 ## Where to find results of a run: 
 
