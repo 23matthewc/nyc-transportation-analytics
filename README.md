@@ -5,13 +5,13 @@ Team Members: Matthew Chen, Andrew Jiang, Adam Soliman
 Directory Structure
 - `data_ingest/` contains the ingestion jobs used to prepare source datasets before merging.
 - `ana_code/` contains analytic (model training and visualization) code used after cleaning.
-- - `ana_code/model_training/` contains code used when training the model.
-  - - `ana_code/transport_model_local/` contains the model itself.
-    - - `ana_code/model_viz.ipynb` is the interactive map visualization of the model. 
+ - `ana_code/model_training/` contains code used when training the model.
+   - `ana_code/transport_model_local/` contains the model itself.
+   - `ana_code/model_viz.ipynb` is the interactive map visualization of the model. 
 - `etl_code/` contains cleaning and merge jobs for the combined transportation + weather dataset.
 - `profiling_code/` contains record counts, schema checks, and other quick validation scripts.
 - `screenshots/` stores project screenshots for different steps of the pipeline.
-- - `screenshots/model+predictions` contains screenshots specifically for the interactive map vizualization of the model. 
+ - `screenshots/model+predictions` contains screenshots specifically for the interactive map vizualization of the model. 
 
 ## Where to find results of a run: 
 
